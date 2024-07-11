@@ -1,0 +1,199 @@
+/* 
+    Author: Mpho Kola 
+    Theme: Sultan Website admin 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.tbl-full{
+   width: 100%;
+}
+
+.status{
+    width: 11%;
+}
+.orderId{
+    width: 10%;
+
+}
+.price{
+    width: 11%;
+ 
+}
+.mealName{
+    width: 11%;
+
+}
+.quantity{
+    width: 11%;
+}
+.totalAmount{
+    width: 11%;
+}
+.Contact{
+    width: 11%;
+}
+.orderDate{
+    width: 11%;
+}
+/* .Email{
+    width: 11%; 
+} */
+.Actions{
+    width: 16%;
+}
+.Address{
+    width: 12%;
+}
+
+.tbl-b{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 2px solid black; 
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{ 
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: grey;
+    /* padding: 2%; */
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    height: 32px; /* Adjust height as needed */
+}
+.btn-primary:hover{
+    background-color: #b3b3b3;
+}
+
+.btn-primary-update{
+    background-color: grey;
+    padding: 15%;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 30%;
+    height: 32px; 
+}
+
+.btn-primary-update:hover{
+    background-color: #b3b3b3;
+}
+
+.btn-sec{
+    background-color: grey;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+}
+.btn-sec:hover{
+    background-color: #b3b3b3;
+}
+
+.btn-red{
+    background-color: #F40e11;
+    
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.btn-red:hover{
+    background-color: #f75658;
+}
+
+.allgood{
+    color: #30cc2b;
+}
+.error{
+    color: red;
+}
+
+.allgoodsec{
+    color: #30cc2b;
+}
+.errorsec{
+    color: red;
+}
+
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline; 
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #cc0001;
+}
+
+.menu ul li a:hover{
+    color: #d95151;
+}
+
+/* CSS for main-content */
+.main-content{
+   background-color: #f1f2f6;
+   padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for footer */
+
+.footer {
+    background-color: #d95151;
+    color: white;
+}
+
+/* Login CSS */
+.login{
+    width: 20%;
+    border: 1px solid grey;
+    margin: 10% auto;
+    padding: 2%;
+}
